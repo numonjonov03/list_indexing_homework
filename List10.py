@@ -6,4 +6,8 @@ def main(list_num):
     Returns:
         int: return answer
     """
-    return
+    if list1[0]>=list1[-1]:
+        return list1[0]
+    else:
+        return list1[-1]
+        
